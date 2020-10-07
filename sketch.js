@@ -1,5 +1,6 @@
-# p5.play-boilerplate
-Boiler plate for p5.play
+var rect1, rect2;
+
+
 function setup() {
   createCanvas(windowWidth,windowHeight);
   rect1 = createSprite(400, 200, 80, 50);
